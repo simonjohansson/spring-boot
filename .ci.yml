@@ -1,0 +1,9 @@
+org: engineering-enablement
+
+repo:
+  uri: https://github.com/simonjohansson/spring-boot.git
+
+tasks:
+- task: run
+  command: runtest.sh
+  image: openjdk:8-jdk-slim
